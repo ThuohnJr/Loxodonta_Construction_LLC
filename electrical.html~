@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loxodonta Construction LLC</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,500&family=Quicksand:wght@300;400;500;600&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/v4-shims.min.js" integrity="sha512-6n3X18GAJomziz6HVPbmyBOEZeoB8+unwEBTRXFs3IZTRYYCkbXNAWNV68uHujamEvDBqaGe2FTW19o81h1/RA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> 
+    </head>
+<body> 
+<div class="container">
+
+    <div class="header">
+    <div class="header1">
+   <div> <img src="pics/lcl.png" style="width:13%;"></div>
+<div>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><div class="services"><a href="services.html">Services</a>
+            <ul>
+                <div class="services-list">
+                <a href="electrical.html"><li>Electrical</li></a>
+                <a href="plumbing.html"><li>Plumbing</li></a>
+                <a href="ceiling.html"><li>Drywall</li></a>
+                <a href="carpentry.html"><li>Woodwork</li></a>
+                <a href="welding.html"><li>Metalwork</li></a>
+                </div>
+            </ul>
+        </div>
+        </li>
+        <li><a href="contact.html">Contact </a></li>
+        <li><a href="about.html">About </a></li>
+    </ul>
+</div>
+</div>
+ 
+<div class="header2">
+<div class="header-title">
+  <h1>Electrical Department</h1> 
+</div>
+<div class="header-img"><img src="pics/electrical1.jpg" alt="Photo of worker" id="header-img"></div> 
+</div>
+</div>
+
+<div>
+    <h2>Here are our electrical services</h2>
+
+    <div class="electrical-services">
+
+    <div>
+        <div class="title"> Inspection</div>
+        <img src="pics/inspection.jpg" id="electrical-img">
+        <button class="btn">Visit</button>
+    </div>
+
+      <div>
+        <div class="title">Wiring</div>
+        <img src="pics/wiring.jpg" id="electrical-img">
+        <button class="btn">Visit</button>
+    </div>
+     
+    <div>
+        <div class="title">Smart Home</div>
+        <img src="pics/automation.jpg" id="electrical-img">
+        <button class="btn">Visit</button>
+    </div>
+    
+    </div>
+
+    <div class="electrical-services">
+
+          <div>
+        <div class="title">Accessories</div>
+        <img src="pics/gsocket.jpg" id="electrical-img">
+        <button class="btn">Visit</button>
+    </div>
+
+      <div>
+        <div class="title">Tools</div>
+        <img src="pics/mm1.webp" id="electrical-img">
+        <button class="btn">Visit</button>
+    </div> 
+
+   <div>
+        <div class="title">Panels</div>
+        <img src="pics/light2.jpg" id="electrical-img">
+        <button class="btn">Visit</button>
+    </div>
+
+    </div>
+
+    <div class="electrical-services">
+  
+  <div>
+        <div class="title">Solar</div>
+        <img src="pics/solar1.jpg" id="electrical-img">
+        <button class="btn">Visit</button>
+    </div>
+    
+    <div>
+        <div class="title">Commercial</div>
+        <img src="pics/comm.jpg" id="electrical-img">
+        <button class="btn">Visit</button>
+    </div>
+    
+    <div>
+        <div class="title">Lighting</div>
+        <img src="pics/light1.jpg" id="electrical-img">
+        <button class="btn">Visit</button>
+    </div>
+
+</div>
+
+
+
+</div>
+ <div class="electrical-services">
+
+    <div>
+        <div class="title"></div>
+        <img src="pics/">
+        <button class="btn">Visit</button>
+    </div>
+
+    <div>
+        <div class="title"></div>
+        <img src="pics/">
+        <button class="btn">Visit</button>
+    </div>
+
+    <div>
+        <div class="title"></div>
+        <img src="pics/">
+        <button class="btn">Visit</button>
+    </div>
+
+</div>
+
+<div class="foot">
+    <footer> Copyright &copy;Loxodonta Construction LLC 2023</footer>
+</div>
+
+</div>
+</body>
+</html>
