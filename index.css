@@ -216,7 +216,7 @@ footer{
 
 	}
 	.main1{
-		border-bottom: 1px grey groove;
+
 		padding: 10px;
 	}
 	.main1 > -1{
@@ -235,18 +235,18 @@ footer{
 	.projects-row1{
 	display: flex;
 	flex-direction: column;
-	flex: 1;
-	padding: 5px;
-	margin: 3px;
+	gap:5px
+	padding: 3px;
+
 }
+
 .projects-row1-1{
 	display: flex;
 	flex-direction: column;
 }
 #project-img{
 	width: 100%;
-	margin: 3px;
-	padding: 5px;
+	height: 350px;
 }
 }
 
@@ -291,24 +291,13 @@ h2{
 	font-size: 2em;
 	padding: 10px;
 }
-@media(max-width:600px){
+@media(max-width:400px){
 	.electrical-services{
 		display: flex;
 		flex-direction: column;
-		flex: 1;
-		}
-		.electrical-services > div{
-			border-bottom: 1px grey groove;
-			padding: 10px;
-			margin: 3px;
-		}
-		#electrical-img{
-			width: 100%;
-			height: 350px;
-		}
-		.btn{
-			margin: auto;
-		}
+		gap:5px;
+		padding:3px;
+}
 }
 /*Carpentry*/
 
@@ -325,6 +314,14 @@ padding-bottom: 20px;
 	height: 350px;
 	border-radius:20px;
 }
+@media(max-width:400px){
+	.carpentry-services{
+		display: flex;
+		flex-direction: column;
+		gap:5px;
+		padding:3px;
+	}
+}
 /*Welding*/
 .welding{
 display: flex;
@@ -339,7 +336,14 @@ height: 300px;
 padding: 10px;
 border-radius: 15px;
 }
-
+@media(max-width:400px){
+	.welding{
+		display: flex;
+		flex-direction: column;
+		gap:5px;
+		padding:3px;
+	}
+}
 /*Plumbing page*/
 .plumbing{
 padding:40px;
@@ -354,7 +358,14 @@ height: 300px;
 border-radius: 20px;
 padding:10px;
 }
-
+@media(max-width:400px){
+	.plumbing{
+		display: flex;
+		flex-direction: column;
+		gap:5px;
+		padding:3px;
+	}
+}
 
 
 /*About page*/
@@ -369,6 +380,11 @@ padding:10px;
 	font-size: 1.4em;
 }
 
+/*Contact us page*/
+.contact{
+	font-size: 3rem;
+
+}
 /*Completeed projects page*/
 #project-img{
 	width: 100%;
