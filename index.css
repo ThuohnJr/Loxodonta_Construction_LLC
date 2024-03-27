@@ -381,7 +381,7 @@ font-size: 1.5rem;
 }
 .loxostore div p{
 	text-align: center;
-	
+
 }
 .loxostore div p img{
 	width:10%;
@@ -423,6 +423,27 @@ h2{
 		gap:5px;
 		padding:3px;
 }
+}
+
+/*Electrical Inspections*/
+.inspection-list{
+	display: flex;
+	flex-direction: column;
+	padding:30px;
+	list-style: outside;
+	list-style-type: square;
+}
+.inspection-list li{
+	list-style-type: square;
+}
+.inspection{
+	padding:20px;
+	font-size: 1.4rem;
+}
+#icon-img{
+	width:30px;
+	height:30px;
+margin: 10px;
 }
 /*Carpentry*/
 
@@ -520,4 +541,21 @@ padding:20px;
 	width: 100%;
 border-radius: 15px;
 height:400px;
+}
+/*Services*/
+.service-intro{
+	padding:10px;
+	font-size: 1.2rem;
+}
+.service{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.4rem;
+	padding:10px;
+}
+.service ul{
+	display: flex;
+	flex-direction: column;
 }
