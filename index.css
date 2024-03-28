@@ -547,7 +547,7 @@ height:400px;
 	padding:10px;
 	font-size: 1.2rem;
 }
-.service{
+.services-offered{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -555,7 +555,7 @@ height:400px;
 	font-size: 1.4rem;
 	padding:10px;
 }
-.service ul{
+.services-offered ul{
 	display: flex;
 	flex-direction: column;
 }
