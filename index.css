@@ -46,7 +46,6 @@ padding:10px;
 .services-list{
 	display: none;
 	position: absolute;
-
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -542,6 +541,37 @@ padding:20px;
 border-radius: 15px;
 height:400px;
 }
+.elephant-ad{
+	height: 500px;
+	background: ;
+	display: grid;
+	grid-template-columns: 50% 50%;
+background: olivedrab;
+color: gold;
+	}
+	.ad-left{
+		grid-column: 1/2;
+		display:flex;
+	}
+	.ad-right{
+		grid-column: 2/3;
+		display: grid;
+		grid-template-rows:  50% 50%;
+	}
+	.right-top{
+		grid-row: 1/2;
+		display: flex;
+		justify-content: center;
+		font-size: 2rem;
+
+	}
+	.right-bottom{
+		grid-row: 2/3;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 2.2rem;
+	}
 /*Services*/
 .service-intro{
 	padding:10px;

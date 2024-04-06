@@ -9,14 +9,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,500&family=Quicksand:wght@300;400;500;600&display=swap" rel="stylesheet">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/v4-shims.min.js" integrity="sha512-6n3X18GAJomziz6HVPbmyBOEZeoB8+unwEBTRXFs3IZTRYYCkbXNAWNV68uHujamEvDBqaGe2FTW19o81h1/RA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/v4-shims.min.js" integrity="sha512-6n3X18GAJomziz6HVPbmyBOEZeoB8+unwEBTRXFs3IZTRYYCkbXNAWNV68uHujamEvDBqaGe2FTW19o81h1/RA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     </head>
-<body> 
+<body>
 <div class="container">
 
     <div class="header">
     <div class="header1">
-   <div> <img src="pics/lcl.png" style="width:13%;"></div>
+   <div> <img src="logos/logos.png" style="width:13%;"></div>
 <div>
     <ul>
         <li><a href="index.html">Home</a></li>
@@ -37,131 +37,131 @@
     </ul>
 </div>
 </div>
- 
+
 <div class="header2">
 <div class="header-title">
-  <h1>Plumbing Department</h1> 
+  <h1>Plumbing Department</h1>
  </div>
-<div class="header-img"><img src="pics/plumbing5.jpg" alt="Photo of worker" id="header-img"></div> 
+<div class="header-img"><img src="pics/plumbing5.jpg" alt="Photo of worker" id="header-img"></div>
 </div>
-</div>  
+</div>
 
 <div>
 <h2>Here are our plumbing servies</h2>
 
 <div class="plumbing">
-    
-  
+
+
     <div>
     <div class="title">Piping</div>
         <img src="pics/piping.jpg" id="plumbing-img" class="img-responsive">
         <button class="btn">Visit</button>
     </div>
-    
+
     <div>
     <div class="title">Sewers</div>
         <img src="pics/sewer.jpg" id="plumbing-img" class="img-responsive">
         <button class="btn">Visit</button>
     </div>
-    
+
     <div>
     <div class="title">Drains</div>
         <img src="pics/bathdrain.jpg" id="plumbing-img" class="img-responsive">
-        <button class="btn">Visit</button> 
+        <button class="btn">Visit</button>
     </div>
-     
-    </div>    
+
+    </div>
 
 <div class="plumbing">
-    
+
     <div>
     <div class="title">Leakages</div>
         <img src="pics/leak.jpg" id="plumbing-img" class="img-responsive">
         <button class="btn">Visit</button>
     </div>
-    
+
     <div>
     <div class="title">Blockages</div>
         <img src="pics/clogdrain.jpg" id="plumbing-img" class="img-responsive">
         <button class="btn">Visit</button>
     </div>
-    
+
     <div>
     <div class="title">Pumps</div>
         <img src="pics/pumps.jpg" id="plumbing-img" class="img-responsive">
         <button class="btn">Visit</button>
     </div>
-    
-    </div>  
-    
+
+    </div>
+
     <div class="plumbing">
-    
+
     <div>
     <div class="title">Toilets</div>
         <img src="pics/toilet.jpg" id="plumbing-img" class="img-responsive">
         <button class="btn">Visit</button>
     </div>
-    
+
     <div>
     <div class="title">Sinks</div>
         <img src="pics/sink.jpg" id="plumbing-img" class="img-responsive">
         <button class="btn">Visit</button>
     </div>
-    
+
     <div>
     <div class="title">Bathrooms</div>
         <img src="pics/bathglass2.jpg" id="plumbing-img" class="img-responsive">
         <button class="btn">Visit</button>
     </div>
-    
-    </div>  
-    
+
+    </div>
+
     <div class="plumbing">
-   
+
     <div>
     <div class="title">Septic tanks</div>
         <img src="pics/septic.jpg" id="plumbing-img" class="img-responsive">
         <button class="btn">Visit</button>
     </div>
-    
+
     <div>
     <div class="title">Sump tanks</div>
         <img src="pics/sumptank.jpg" id="plumbing-img" class="img-responsive">
         <button class="btn">Visit</button>
     </div>
-    
+
     <div>
     <div class="title">Water removal</div>
         <img src="pics/waterremoval.webp" id="plumbing-img" class="img-responsive">
         <button class="btn">Visit</button>
     </div>
-    
-    </div>  
-    
+
+    </div>
+
     <div class="plumbing">
-    
+
     <div>
     <div class="title">Washing Machines</div>
         <img src="pics/washingmachine.jpg" id="plumbing-img" class="img-responsive">
         <button class="btn">Visit</button>
     </div>
-    
+
     <div>
     <div class="title">Water Heaters</div>
         <img src="pics/waterheater.jpg" id="plumbing-img" class="img-responsive">
         <button class="btn">Visit</button>
     </div>
-    
+
     <div>
     <div class="title">Dish Washers</div>
         <img src="pics/dishwasher.jpg" id="plumbing-img" class="img-responsive">
         <button class="btn">Visit</button>
     </div>
-    
-    </div>  
-    
+
     </div>
-    
+
+    </div>
+
 <div class="foot">
     <footer> Copyright &copy;Loxodonta Construction LLC 2023</footer>
 </div>
