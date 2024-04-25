@@ -123,7 +123,11 @@ a:visited{
 	text-align: center;
 	font-size: 1.4rem;
 	padding: 20px 20px 0px 20px ;
-
+}
+@media(max-width:320px;){
+#company-logo{
+	width:35%;
+}
 }
 .main{
 	display: flex;
