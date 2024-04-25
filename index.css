@@ -193,6 +193,11 @@ a{
 	text-decoration: none;
 	list-style: none;
 }
+@media(max-width:320px) {
+  #company-logo{
+    width:60%;
+  }
+}
 .title{
 	font-size: 1.3em;
 }
@@ -275,19 +280,23 @@ height: 30px;
 	.projects-row1{
 	display: flex;
 	flex-direction: column;
-	gap:5px
+	gap:5px;
 	padding: 3px;
-
+  margin:4px;
 }
 
 .projects-row1-1{
 	display: flex;
 	flex-direction: column;
+
 }
+
+}
+
 #project-img{
 	width: 100%;
 	height: 350px;
-}
+
 }
 
 .projects-row1{
@@ -417,6 +426,14 @@ font-size: 1.5rem;
 }
 .loxostore div p img{
 	width:10%;
+
+}
+@media(max-width:320px) {
+  .loxostore{
+    display: flex;
+    flex-direction: column;
+    height:fit-content;
+  }
 
 }
 
@@ -576,26 +593,26 @@ height:400px;
 }
 .elephant-ad{
 	height: 600px;
-	background: ;
-	display: grid;
+	display: flex;
 	grid-template-columns: 50% 50%;
 background: olivedrab;
 color: gold;
 font-family: "Quicksand","open sans",serif;
 	}
+
 	.ad-left{
-		grid-column: 1/2;
 		display:flex;
 		background-image: url('pics/redcharlie-Y--zr3CPaPs-unsplash.jpg');
 		background-size: cover;
+    width: 50%;
 	}
 	.ad-right{
-		grid-column: 2/3;
-		display: grid;
-		grid-template-rows:  50% 50%;
+	display: flex;
+	width: 50%;
+  flex-direction: column;
+  gap:40px;
 	}
 	.right-top{
-		grid-row: 1/2;
 		display: flex;
 		justify-content: center;
 		font-size: 2rem;
@@ -603,12 +620,34 @@ font-family: "Quicksand","open sans",serif;
 font-family:
 	}
 	.right-bottom{
-		grid-row: 2/3;
 		display: flex;
 		justify-content: center;
 		align-items: center;
 		font-size: 2.2rem;
 	}
+@media(max-width:320px){
+  .elephant-ad{
+    display: flex;
+    flex-direction: column;
+  height: fit-content;
+  width:100vw;
+  }
+  .ad-left{
+    width: 100%;
+    height:400px;
+  }
+  .ad-right{
+    width:100%;
+  }
+  .right-top{
+    font-size: 1.4rem;
+  }
+  .right-bottom{
+    font-size: 1.5rem;
+  }
+}
+
+
 /*Services*/
 .service-intro{
 	padding:10px;
