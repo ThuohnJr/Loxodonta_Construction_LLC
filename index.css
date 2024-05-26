@@ -503,10 +503,14 @@ margin: 10px;
 }
 
 /*Electrical wiring*/
+.tables p{
+  padding:15px;
+  font-size: 1.5rem;
+}
 table{
   justify-content: center;
   align-items: center;
-  width: 80%;
+  width: 100%;
   font-size: 1.2em;
   background-color: wheat;
   border-collapse: collapse;
@@ -518,6 +522,7 @@ td,th{
     text-align: center;
     padding: 10px;
 }
+
 /*Carpentry*/
 
 .carpentry-services{
