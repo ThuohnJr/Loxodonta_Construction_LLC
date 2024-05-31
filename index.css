@@ -578,10 +578,22 @@ padding:40px;
 margin:40px;
 gap:20px;
 }
+.lighting-products p{
+  font-size: 1.3rem;
+  padding: 10px;
+}
 #light-img{
   width:100%;
   border-radius: 10px;
   height:300px;
+}
+@media(max-width:600px){
+.lighting-products{
+display: flex;
+flex-direction: column;
+padding: 5px;
+margin: 4px;
+}
 }
 /*Carpentry*/
 
