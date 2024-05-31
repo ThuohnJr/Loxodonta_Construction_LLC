@@ -571,6 +571,18 @@ font-size: 1.2rem;
     width:100%;
   }
 }
+/*Electrical - lights*/
+.lighting-products{
+  display: flex;
+padding:40px;
+margin:40px;
+gap:20px;
+}
+#light-img{
+  width:100%;
+  border-radius: 10px;
+  height:300px;
+}
 /*Carpentry*/
 
 .carpentry-services{
