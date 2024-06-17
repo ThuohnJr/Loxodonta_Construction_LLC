@@ -318,16 +318,13 @@ height: 30px;
 /*image slider*/
 
 .slider {
-
-  width:250px;
+  width:350px;
 border-radius: 10px;
-  height: 250px;
-
+  height: 350px;
   overflow: hidden;
 display: flex;
 justify-content: center;
   position: relative;
-
 }
 
 
@@ -390,7 +387,7 @@ justify-content: center;
 
 .slide:nth-child(9) {
 
-  animation-delay: 32s;
+  animation-delay: 34s;
 }
 @keyframes slideShow {
 
@@ -407,6 +404,7 @@ justify-content: center;
 }
 #slider-img{
   width:100%;
+  height:300px;
 }
 
 .projects-row2{
@@ -416,32 +414,39 @@ justify-content: center;
 }
 
 .loxostore{
-height:300px;
-background: lavender;
+height:400px;
+background: coral;
 display: flex;
 justify-content: space-around;
 align-items: center;
 font-size: 1.5rem;
 }
-.loxostore div{
-	padding:10px;
-	text-align: center;
+.loxostore-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.loxostore div p{
-	text-align: center;
-
+.loxostore button:hover{
+  transform: scale(1.2);
 }
-.loxostore div p img{
-	width:10%;
-
-}
-@media(max-width:320px) {
+@media(max-width:600px) {
   .loxostore{
     display: flex;
     flex-direction: column;
     height:fit-content;
-  }
+    min-height: 500px;
+    padding: 10px;
 
+  }
+#slider-img{
+  padding: 10px;
+}
+.slider{
+height: 300px;
+width: 100%;
+
+}
 }
 
 

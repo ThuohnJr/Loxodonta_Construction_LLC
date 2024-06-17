@@ -11,10 +11,25 @@ padding:0;
 margin: 0;
 box-sizing: border-box;
 }
-
+a{
+  list-style: none;
+  text-decoration: none;
+}
+li{
+  list-style: none;
+  text-decoration: none;
+}
 .main-title{
   color:rebeccapurple;
   text-align: center;
+  box-shadow: 1px 1px 1px 1px rebeccapurple;
+  padding:10px;
+  margin: 0 0 15px 0;
+  border-radius: 0 0 15px 15px;
+}
+.main-title:hover{
+  color:#FFFFFF;
+  background: rebeccapurple;
 }
 .main-title > h1{
   font-size: 3rem;
@@ -35,10 +50,15 @@ box-sizing: border-box;
 }
 ul > li{
   padding: 10px;
+  list-style: none;
+  text-decoration: none;
 }
 ul > li:hover{
   background: rebeccapurple;
   color: #fff;
+}
+.products-link{
+
 }
 .products{
   display: flex;
@@ -46,7 +66,17 @@ ul > li:hover{
   padding:20px;
 margin:20px;
 text-align: center;
+gap:20px;
+}
+.tool{
+  border-bottom: 0.4px groove lightgrey;
+  border-radius: 10px;
+  padding:10px;
+}
 
+.tool:hover{
+  box-shadow: 1px 1px 1px 1px lightgrey;
+  transform: scale(1.05);
 }
 h2{
   text-align: center;
@@ -66,10 +96,73 @@ nav a:hover{
   width:100%;
   padding:10px;
 }
-.btn{
-  margin:0 auto;
+.btn {
+  background: #FF4742;
+  border: 1px solid #FF4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: raleway, sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
 }
 
+.btn:hover,
+.btn:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #FF4742;
+}
+
+.btn:active {
+  opacity: .5;
+}
+
+.section-title{
+  text-align: center;
+}
+.subsection-title{
+  text-align: center;
+  padding:15px;
+  font-size: 1.4rem;
+  color: blue;
+}
+.title{
+  color:gray;
+  font-size: 1.5rem;
+}
+.title-button{
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  gap:15px;
+  border: none;
+  margin: 0 auto;
+  font-family: cinzel, sans, sans-serif;
+}
+button img{
+  height:50px;
+  width: 50px;
+}
+#tool-img{
+  width:100%;
+  height:300px;
+  border-radius: 25px;
+}
 footer{
   text-align: center;
   padding: 15px;
