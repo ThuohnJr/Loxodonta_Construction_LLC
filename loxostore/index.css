@@ -153,6 +153,12 @@ nav a:hover{
   border: none;
   margin: 0 auto;
   font-family: cinzel, sans, sans-serif;
+  background: #FFFFFF;
+  border-radius: 15px;
+}
+.title-button:hover{
+  background: gold;
+
 }
 button img{
   height:50px;
