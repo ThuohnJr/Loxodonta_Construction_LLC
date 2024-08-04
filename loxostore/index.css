@@ -68,6 +68,18 @@ margin:20px;
 text-align: center;
 gap:20px;
 }
+@media(max-width:600px){
+  .products{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+  }
+  .products:hover{
+    box-shadow: 1px 1px 1px 1px lightgrey;
+    margin:10px 0 10px 0;
+  }
+}
 .tool{
   border-bottom: 0.4px groove lightgrey;
   border-radius: 10px;
@@ -169,6 +181,16 @@ button img{
   height:300px;
   border-radius: 25px;
 }
+.smart-intro{
+  padding:10px;
+  margin:10px;
+}
+.smart-products{
+  display: flex;
+
+}
+
+.products
 footer{
   text-align: center;
   padding: 15px;
