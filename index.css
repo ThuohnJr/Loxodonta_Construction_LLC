@@ -110,14 +110,14 @@ ul, li{
 	margin-top: -50px;
 }
 a:active{
-	color: whitesmoke;
+	color: #FFFFFF;
 }
 a:hover{
 	transform: scale(1.2);
 	color:seagreen;
 }
 a:visited{
-	color: floralwhite;
+	color: orange;
 }
 .depart-title{
 	text-align: center;
